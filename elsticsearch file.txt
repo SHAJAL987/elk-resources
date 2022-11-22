@@ -1,0 +1,34 @@
+create user in elastic search:
+--------------------------------
+elasticsearch-users useradd shajal -p shajal -r network,monitoring
+
+reset password:
+----------------
+elasticsearch-reset-password.bat -u elastic
+
+elastic user password:
+----------------------
+oNqFYft-c2tskbUFyHM9
+
+
+restart elasticsearch on linux:
+-------------------------------
+sudo systemctl restart elasticsearch
+
+elasticsearch-users useradd shajal987 -p shajal987 -r superuser
+
+connect to another node:
+------------------------
+elasticsearch --enrollement-token eyJ2ZXIiOiI4LjQuMCIsImFkciI6WyIxMC4xMS4yMDAuMTE3OjkyMDAiXSwiZmdyIjoiNDNlYzc3MWE0Mjc3ZDg1OThkNzM4YmZhZGFlM2JlM2E0NDM3YTNlMjgwMDdkYThmM2IzYjYxNTc4MDViOTM3OCIsImtleSI6Il9La0oxSUlCOExLTjRtaWxnMmVyOlRMTDJaTHlpUWthUGotYzZTUWtJQkEifQ==
+
+
+
+eyJ2ZXIiOiI4LjQuMCIsImFkciI6WyIxMC4xMS4yMDAuMTE3OjkyMDAiXSwiZmdyIjoiMDBmMDllNzEyY2JiZmZlNDhlNzdjY2VkNzAxN2ZjNDVkMmViMGIxOWQxNWY1MjhjNGMzNGYzODg1MWNmN2EwYiIsImtleSI6IkhGdnk2SUlCbmp0SlMtWUhkRHlLOnNFMHkxd3FrU01HSnBubEtkQk1rR3cifQ==
+
+
+
+keytool -import -alias "http" -file "D:\elasticstack\elasticsearch-8.4.0\config\certs\http_ca.crt" -keystore cacerts
+
+
+
+select a.REQUEST_DATE, a.COMP_ID, a.REMIT_NO, a.REMITER_NAME, a.BEN_NAME, a.BEN_ADDRESS, a.ID_TYPE, a.TYPE_NO, a.MOBILE_NO, a.PIN_NO, a.REQ_AMOUNT, a.REMARKS, a.SEND_STATUS, a.VERIFY_FLAG, a.VERIFY_BY, a.VERIFY_DATE, a.VERIFY_AMOUNT, a.VERIFY_REMARKS, a.PAY_DATE, a.PAY_DOC_NUM,a.CREATE_BY,a.CREATE_DATE,a.AGENT_POINT_ID,a.BEN_DOB,a.TYPE_ISSUE_DATE,a.PASS_EXP_DATE,a.INCENTIVE_AMOUNT,a.REMARKS2,b.DOC_FRONT_IMG,b.DOC_BACK_IMG,b.FORM_IMG from ARCHIVAL.RM_PAYMENT_REQUEST_HIST a, ARCHIVAL.RM_REMITTANCE_DOC_HIST b where a.REQUEST_ID = b.REQUEST_ID

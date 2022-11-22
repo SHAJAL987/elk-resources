@@ -1,0 +1,214 @@
+[Tue Nov 08 04:14:38.118076 2022] [core:notice] [pid 2996] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Tue Nov 08 04:14:38.255439 2022] [suexec:notice] [pid 2996] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Nov 08 04:14:38.281339 2022] [:warn] [pid 2996] NSSSessionCacheTimeout is deprecated. Ignoring.
+[Tue Nov 08 04:14:39.295028 2022] [:error] [pid 2996] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:14:39.342681 2022] [so:warn] [pid 2996] AH01574: module filter_module is already loaded, skipping
+AH00557: httpd: apr_sockaddr_info_get() failed for ocashdiganta
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 08 04:14:39.715311 2022] [lbmethod_heartbeat:notice] [pid 2996] AH02282: No slotmem from mod_heartmonitor
+[Tue Nov 08 04:14:39.717384 2022] [:warn] [pid 2996] NSSSessionCacheTimeout is deprecated. Ignoring.
+[Tue Nov 08 04:14:39.730668 2022] [mpm_prefork:notice] [pid 2996] AH00163: Apache/2.4.6 () OpenSSL/1.0.2k-fips mod_auth_gssapi/1.3.1 mod_nss/2.4.6 NSS/3.19.1 Basic ECC mod_wsgi/3.4 Python/2.7.5 configured -- resuming normal operations
+[Tue Nov 08 04:14:39.730722 2022] [core:notice] [pid 2996] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Tue Nov 08 04:14:39.900860 2022] [:error] [pid 3043] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:14:39.904400 2022] [:error] [pid 3045] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:14:39.905552 2022] [:error] [pid 3044] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:14:39.910277 2022] [:error] [pid 3040] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:14:39.944485 2022] [:error] [pid 3041] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:15:03.464764 2022] [core:error] [pid 3043] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:15:03.464806 2022] [core:crit] [pid 3043] (9)Bad file descriptor: [client 10.11.201.210:58822] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable
+[Tue Nov 08 04:15:03.811691 2022] [core:error] [pid 3043] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:15:03.811736 2022] [core:crit] [pid 3043] (9)Bad file descriptor: [client 10.11.201.210:58822] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/
+[Tue Nov 08 04:15:03.954543 2022] [:error] [pid 3222] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:25:54.102729 2022] [mpm_prefork:notice] [pid 2996] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Nov 08 04:26:01.805073 2022] [core:notice] [pid 8739] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Tue Nov 08 04:26:01.807804 2022] [suexec:notice] [pid 8739] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Nov 08 04:26:01.809568 2022] [:warn] [pid 8739] NSSSessionCacheTimeout is deprecated. Ignoring.
+[Tue Nov 08 04:26:01.988377 2022] [:error] [pid 8739] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:02.010019 2022] [so:warn] [pid 8739] AH01574: module filter_module is already loaded, skipping
+AH00557: httpd: apr_sockaddr_info_get() failed for ocashdiganta
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 08 04:26:02.203390 2022] [lbmethod_heartbeat:notice] [pid 8739] AH02282: No slotmem from mod_heartmonitor
+[Tue Nov 08 04:26:02.205604 2022] [:warn] [pid 8739] NSSSessionCacheTimeout is deprecated. Ignoring.
+[Tue Nov 08 04:26:02.218649 2022] [mpm_prefork:notice] [pid 8739] AH00163: Apache/2.4.6 () OpenSSL/1.0.2k-fips mod_auth_gssapi/1.3.1 mod_nss/2.4.6 NSS/3.19.1 Basic ECC mod_wsgi/3.4 Python/2.7.5 configured -- resuming normal operations
+[Tue Nov 08 04:26:02.218707 2022] [core:notice] [pid 8739] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Tue Nov 08 04:26:02.389803 2022] [:error] [pid 8741] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:02.392787 2022] [:error] [pid 8742] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:02.395823 2022] [:error] [pid 8745] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:02.399784 2022] [:error] [pid 8743] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:02.402745 2022] [:error] [pid 8744] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:12.203401 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.203470 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:58923] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.216011 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.216015 2022] [core:error] [pid 8742] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.216054 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:58923] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.216070 2022] [core:crit] [pid 8742] (9)Bad file descriptor: [client 10.11.201.210:58922] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.217441 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.217489 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.218098 2022] [core:error] [pid 8744] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.218166 2022] [core:crit] [pid 8744] (9)Bad file descriptor: [client 10.11.201.210:58925] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.218470 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.218544 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:58926] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.234177 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.234212 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:58926] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.244043 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.244065 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.408176 2022] [:error] [pid 8863] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:12.419517 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.419539 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:58927] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.449061 2022] [core:error] [pid 8744] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.449093 2022] [core:crit] [pid 8744] (9)Bad file descriptor: [client 10.11.201.210:58925] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:12.469990 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.470036 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable
+[Tue Nov 08 04:26:12.489444 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.489500 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:58923] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable
+[Tue Nov 08 04:26:12.743618 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.743649 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:58923] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable
+[Tue Nov 08 04:26:12.753996 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:12.754037 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable
+[Tue Nov 08 04:26:13.378939 2022] [:error] [pid 8865] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:13.412251 2022] [:error] [pid 8866] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:14.150420 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:14.150464 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:14.156893 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:14.156938 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:14.162661 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:26:14.162672 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:58924] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:26:14.388517 2022] [:error] [pid 8883] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:14.399876 2022] [:error] [pid 8881] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:14.403415 2022] [:error] [pid 8880] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:14.404893 2022] [:error] [pid 8882] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:26:20.249380 2022] [:error] [pid 8865] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:26:21.251106 2022] [:error] [pid 8866] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:27:50.428848 2022] [core:error] [pid 8881] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:27:50.428858 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:27:50.428894 2022] [core:crit] [pid 8881] (9)Bad file descriptor: [client 10.11.201.210:58950] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:27:50.428994 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:58946] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:27:50.437412 2022] [core:error] [pid 8880] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:27:50.437445 2022] [core:crit] [pid 8880] (9)Bad file descriptor: [client 10.11.201.210:58949] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:27:50.452264 2022] [core:error] [pid 8742] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:27:50.452311 2022] [core:crit] [pid 8742] (9)Bad file descriptor: [client 10.11.201.210:58948] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:27:50.452355 2022] [core:error] [pid 8882] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:27:50.452398 2022] [core:crit] [pid 8882] (9)Bad file descriptor: [client 10.11.201.210:58947] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:27:50.497437 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:27:50.497485 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 114.246.34.198:50552] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable
+[Tue Nov 08 04:27:51.529633 2022] [:error] [pid 9470] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:28:02.359786 2022] [:error] [pid 8744] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:31:21.619502 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.619543 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:59052] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.624281 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.624343 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:59053] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.624988 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.625018 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:59057] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.625634 2022] [core:error] [pid 9470] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.625668 2022] [core:crit] [pid 9470] (9)Bad file descriptor: [client 10.11.201.210:59058] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.625785 2022] [core:error] [pid 8882] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.625836 2022] [core:crit] [pid 8882] (9)Bad file descriptor: [client 10.11.201.210:59059] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.626216 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.626249 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59060] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.630594 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.630634 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:59052] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.638415 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.638443 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:59053] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.646466 2022] [core:error] [pid 9470] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.646490 2022] [core:crit] [pid 9470] (9)Bad file descriptor: [client 10.11.201.210:59058] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:21.669510 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:21.669540 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59060] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:22.709284 2022] [:error] [pid 11621] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:31:23.284074 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:23.284115 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59060] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:23.291769 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:23.291806 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59060] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:23.303989 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:31:23.304029 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59060] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:31:25.567008 2022] [:error] [pid 8881] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:33:16.578320 2022] [core:error] [pid 8880] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.578371 2022] [core:crit] [pid 8880] (9)Bad file descriptor: [client 10.11.201.210:59081] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.581525 2022] [core:error] [pid 8742] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.581612 2022] [core:crit] [pid 8742] (9)Bad file descriptor: [client 10.11.201.210:59082] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.583894 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.584024 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59086] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.584344 2022] [core:error] [pid 11621] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.584388 2022] [core:crit] [pid 11621] (9)Bad file descriptor: [client 10.11.201.210:59084] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.587265 2022] [core:error] [pid 8882] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.587295 2022] [core:crit] [pid 8882] (9)Bad file descriptor: [client 10.11.201.210:59085] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.587417 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.587495 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:59083] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.590228 2022] [core:error] [pid 8880] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.590244 2022] [core:crit] [pid 8880] (9)Bad file descriptor: [client 10.11.201.210:59081] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.596402 2022] [core:error] [pid 8742] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.596416 2022] [core:crit] [pid 8742] (9)Bad file descriptor: [client 10.11.201.210:59082] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.599612 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.599634 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:59083] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:16.622422 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:16.622450 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59086] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:17.393864 2022] [:error] [pid 12400] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:33:19.405516 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:19.405600 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59086] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:19.413523 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:19.413550 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59086] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:19.417999 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:19.418019 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59086] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:21.262349 2022] [:error] [pid 9470] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:33:41.144658 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.144702 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59091] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.150534 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.150612 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:59092] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.151615 2022] [core:error] [pid 8741] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.151648 2022] [core:crit] [pid 8741] (9)Bad file descriptor: [client 10.11.201.210:59094] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.152360 2022] [core:error] [pid 12400] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.152399 2022] [core:crit] [pid 12400] (9)Bad file descriptor: [client 10.11.201.210:59093] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.165092 2022] [core:error] [pid 11621] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.165115 2022] [core:crit] [pid 11621] (9)Bad file descriptor: [client 10.11.201.210:59096] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.165427 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.165459 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:59095] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.167902 2022] [core:error] [pid 8883] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.167968 2022] [core:crit] [pid 8883] (9)Bad file descriptor: [client 10.11.201.210:59091] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.186414 2022] [core:error] [pid 8743] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.186452 2022] [core:crit] [pid 8743] (9)Bad file descriptor: [client 10.11.201.210:59095] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.192055 2022] [core:error] [pid 8745] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.192095 2022] [core:crit] [pid 8745] (9)Bad file descriptor: [client 10.11.201.210:59092] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.196144 2022] [core:error] [pid 11621] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:41.196167 2022] [core:crit] [pid 11621] (9)Bad file descriptor: [client 10.11.201.210:59096] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:41.558026 2022] [:error] [pid 12541] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:33:46.411839 2022] [:error] [pid 8882] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:33:56.364154 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:56.364194 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59097] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:56.371812 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:56.371838 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59097] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:33:56.379695 2022] [core:error] [pid 8863] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:33:56.379725 2022] [core:crit] [pid 8863] (9)Bad file descriptor: [client 10.11.201.210:59097] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=4550:1:8703153000119:::::
+[Tue Nov 08 04:35:15.427230 2022] [mpm_prefork:notice] [pid 8739] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Nov 08 04:35:23.468259 2022] [core:notice] [pid 13342] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Tue Nov 08 04:35:23.470519 2022] [suexec:notice] [pid 13342] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Nov 08 04:35:23.472738 2022] [:warn] [pid 13342] NSSSessionCacheTimeout is deprecated. Ignoring.
+[Tue Nov 08 04:35:23.680589 2022] [:error] [pid 13342] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:23.704205 2022] [so:warn] [pid 13342] AH01574: module filter_module is already loaded, skipping
+AH00557: httpd: apr_sockaddr_info_get() failed for ocashdiganta
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 08 04:35:23.914888 2022] [lbmethod_heartbeat:notice] [pid 13342] AH02282: No slotmem from mod_heartmonitor
+[Tue Nov 08 04:35:23.916813 2022] [:warn] [pid 13342] NSSSessionCacheTimeout is deprecated. Ignoring.
+[Tue Nov 08 04:35:23.927745 2022] [mpm_prefork:notice] [pid 13342] AH00163: Apache/2.4.6 () OpenSSL/1.0.2k-fips mod_auth_gssapi/1.3.1 mod_nss/2.4.6 NSS/3.19.1 Basic ECC mod_wsgi/3.4 Python/2.7.5 configured -- resuming normal operations
+[Tue Nov 08 04:35:23.927778 2022] [core:notice] [pid 13342] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Tue Nov 08 04:35:24.106197 2022] [:error] [pid 13353] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:24.112436 2022] [:error] [pid 13352] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:24.112603 2022] [:error] [pid 13350] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:24.116851 2022] [:error] [pid 13354] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:24.147617 2022] [:error] [pid 13351] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:28.130237 2022] [:error] [pid 13423] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:29.096628 2022] [:error] [pid 13438] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:29.165345 2022] [:error] [pid 13437] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:30.103730 2022] [:error] [pid 13440] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:30.106820 2022] [:error] [pid 13441] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:30.136065 2022] [:error] [pid 13442] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:30.163705 2022] [:error] [pid 13443] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:35:35.955691 2022] [:error] [pid 13438] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:35:36.957007 2022] [:error] [pid 13437] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:37:34.262013 2022] [:error] [pid 14301] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:37:41.098390 2022] [:error] [pid 13354] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:37:42.805794 2022] [:error] [pid 13353] [client 10.11.201.210:59180] client denied by server configuration: proxy:http://10.11.201.82:8080/cblagent/f, referer: http://10.11.201.82/cblagent/f?p=4000:1:8703153000119::NO:RP:FB_FLOW_ID,F4000_P1_FLOW,P0_FLOWPAGE,RECENT_PAGES:105,105,105
+[Tue Nov 08 04:37:42.843022 2022] [core:error] [pid 13353] AH00554: Access to file /var/www/.htaccess denied by server: not a regular file
+[Tue Nov 08 04:37:42.843087 2022] [core:crit] [pid 13353] (9)Bad file descriptor: [client 10.11.201.210:59180] AH00529: /var/www/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/' is executable, referer: http://10.11.201.82/cblagent/f?p=GUMS:101::::::
+[Tue Nov 08 04:37:50.276597 2022] [:error] [pid 14399] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:37:51.110879 2022] [:error] [pid 13443] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length
+[Tue Nov 08 04:41:10.281282 2022] [:error] [pid 15629] Misconfiguration of certificate's CN and virtual name. The certificate CN has ocashdiganta. We expected 127.0.0.1 as virtual name.
+[Tue Nov 08 04:41:12.088478 2022] [:error] [pid 13351] SSL Library Error: -12263 SSL received a record that exceeded the maximum permissible length

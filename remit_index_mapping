@@ -1,0 +1,14 @@
+PUT remmit_logs
+{
+    "mappings":{
+        "properties":{
+            "request_date":{
+                "type":"date",
+                "format": "yyyy-MM-dd"
+            },
+            "comp_id":{
+                "type":"integer"
+            }
+        }
+    }
+}
