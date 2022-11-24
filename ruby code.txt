@@ -1,0 +1,19 @@
+ string = "http://10.11.201.82/cblagent/f?p=105:854:13272715678045:::::"
+# string = "http://10.11.201.82/cblagent/f?p=GUMS:101::::::"
+v =  (string =~ /=/)
+v_data = string[v+1, string.length]
+p v_data
+
+v_app = (v_data =~ /:/i)
+a = v_data[0,v_app]
+p a
+
+b = v_data[v_app+1,v_data.length]
+v_page_id = (b =~ /:/i)
+c = b[0,v_page_id]
+p c
+
+d = b[v_page_id+1,b.length]
+v_session_id = (d =~ /:/i)
+e = d[0,v_session_id]
+p e
